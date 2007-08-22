@@ -11,7 +11,7 @@
       </td></tr>
     <tr><td  width="40%" valign="top"  style="padding-top:20px;padding-right:20px">
       <gm:list id="TeamRankList" template="TeamRankListItems"
-           data="$(TeamRankData)" pagesize="10"/>
+           data="${TeamRankData}" pagesize="10"/>
       </td>
       <td>
         <gm:map id="InfoMap" zoom="1" control="small" maptypes="false" >
@@ -53,6 +53,7 @@
 </gm:page>
 
  
+
 
 
 
