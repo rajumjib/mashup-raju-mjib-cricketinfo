@@ -1,11 +1,11 @@
 <gm:page title="Cricket Info">
 
-<div>
-  <table width="100%">
+<div style="padding:15px">
+  <table border="1" width="100%">
   <tbody>
   <tr><td colspan="2">
   <h1>Cricket Info</h1><hr />
-  Jahirul Islam Bhuiyan
+  Jahirul Islam Bhuiyan<br/>
   Dhaka, Bangladesh.
   </td></tr>
 <tr><td  width="40%" valign="top"  style="padding-top:20px;padding-right:20px">
@@ -46,6 +46,7 @@
 </gm:page>
 
  
+
 
 
 
