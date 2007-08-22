@@ -8,10 +8,14 @@
   Jahirul Islam Bhuiyan
   Dhaka, Bangladesh.
   </td></tr>
-<tr><td>
+<tr><td  width="40%" valign="top"  style="padding-top:20px;padding-right:20px">
   <gm:list id="TeamRankList" template="TeamRankListItems"
            data="http://www.cricketzone.com/rss_feed/team_rank_odi.xml" pagesize="10"/>
 </td><td rowspan="2">
+<gm:map id="InfoMap" data="${TeamRankList}" latref="geo:lat" lngref="geo:long" 
+                infotemplate="InfoBubble">
+          <gm:handleEvent src="TeamRankList"/>
+</gm:map>
 <td></tr>
     </tbody>
   </table>
@@ -46,6 +50,7 @@
 </gm:page>
 
  
+
 
 
 
