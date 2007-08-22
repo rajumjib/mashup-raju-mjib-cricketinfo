@@ -1,4 +1,5 @@
 <gm:page title="Cricket Info">
+  <gm:data id="TeamRankData" data="http://www.cricketzone.com/rss_feed/team_rank_odi.xml"/>
 
 <div style="padding:15px">
   <table border="1" width="100%">
@@ -10,10 +11,10 @@
       </td></tr>
     <tr><td  width="40%" valign="top"  style="padding-top:20px;padding-right:20px">
       <gm:list id="TeamRankList" template="TeamRankListItems"
-           data="http://www.cricketzone.com/rss_feed/team_rank_odi.xml" pagesize="10"/>
+           data="$(TeamRankData)" pagesize="10"/>
       </td>
       <td>
-        <gm:map id="InfoMap" zoom="0" control="small" maptypes="false" >
+        <gm:map id="InfoMap" zoom="1" control="small" maptypes="false" >
         </gm:map>
       </td>
     </tr>
@@ -52,6 +53,7 @@
 </gm:page>
 
  
+
 
 
 
