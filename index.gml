@@ -13,9 +13,7 @@
            data="http://www.cricketzone.com/rss_feed/team_rank_odi.xml" pagesize="10"/>
       </td>
       <td>
-        <gm:map id="InfoMap" data="${TeamRankList}" latref="geo:lat" lngref="geo:long" 
-                infotemplate="InfoBubble">
-          <gm:handleEvent src="TeamRankList"/>
+        <gm:map id="InfoMap" zoom="0" control="small" maptypes="false" >
         </gm:map>
       </td>
     </tr>
@@ -54,6 +52,7 @@
 </gm:page>
 
  
+
 
 
 
