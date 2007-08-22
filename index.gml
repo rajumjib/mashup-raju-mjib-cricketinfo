@@ -16,6 +16,7 @@
       <td>
         <gm:map id="InfoMap" zoom="1" control="small" maptypes="false" 
             data="${TeamRankData}">
+          <gm:handleEvent src="TeamRankList"/>
         </gm:map>
       </td>
     </tr>
@@ -54,6 +55,7 @@
 </gm:page>
 
  
+
 
 
 
