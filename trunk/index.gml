@@ -17,7 +17,7 @@
 </div>
 
   <gm:template id="TeamRankListItems">
-    <table width="50%">
+    <table width="100%">
       <tbody>
         <tr>
           <td colspan="2">
@@ -37,14 +37,17 @@
   </gm:template>
 
 <gm:template id="InfoBubble">
-            <b><gm:text ref="atom:title"/></b><br />
-            <gm:html ref="atom:summary"/>
-  </gm:template>
+  <div>
+    <b><gm:text ref="atom:title"/></b><br />
+    <gm:html ref="atom:summary"/>
+  </div>
+</gm:template>
 
 
 </gm:page>
 
  
+
 
 
 
