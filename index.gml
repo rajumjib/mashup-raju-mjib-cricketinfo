@@ -1,7 +1,7 @@
 <gm:page title="Cricket Info">
 
 <div>
-  <table>
+  <table width="100%">
   <tbody>
   <tr><td colspan="2">
   <h1>Cricket Info</h1><hr />
@@ -12,10 +12,6 @@
   <gm:list id="TeamRankList" template="TeamRankListItems"
            data="http://www.cricketzone.com/rss_feed/team_rank_odi.xml" pagesize="10"/>
 </td><td rowspan="2">
-<gm:map id="InfoMap" data="${TeamRankList}" latref="geo:lat" lngref="geo:long" 
-                infotemplate="InfoBubble">
-          <gm:handleEvent src="TeamRankList"/>
-</gm:map>
 <td></tr>
     </tbody>
   </table>
@@ -50,6 +46,7 @@
 </gm:page>
 
  
+
 
 
 
