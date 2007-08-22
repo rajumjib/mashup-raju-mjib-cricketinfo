@@ -14,7 +14,8 @@
            data="${TeamRankData}" pagesize="10"/>
       </td>
       <td>
-        <gm:map id="InfoMap" zoom="1" control="small" maptypes="false" >
+        <gm:map id="InfoMap" zoom="1" control="small" maptypes="false" 
+            latref="geo:lat" lngref="geo:long" data="${TeamRankData}">
         </gm:map>
       </td>
     </tr>
@@ -53,6 +54,7 @@
 </gm:page>
 
  
+
 
 
 
