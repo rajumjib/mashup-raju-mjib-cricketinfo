@@ -29,7 +29,7 @@
         </tr>
         <tr repeat="true">
           <td>
-            <b><gm:text ref="title"/></b>
+            <b><gm:text ref="entry/title"/></b>
           </td>
         </tr>
       </tbody>
@@ -47,6 +47,7 @@
 </gm:page>
 
  
+
 
 
 
