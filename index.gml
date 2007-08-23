@@ -33,10 +33,10 @@
         </tr>
         <tr repeat="true">
           <td>
-            <b><gm:text ref="atom:title"/></b>
+            <b><gm:text ref="title"/></b>
           </td>
           <td>
-            <gm:html ref="atom:summary"/>
+            <gm:html ref="content"/>
           </td>
         </tr>
       </tbody>
@@ -54,6 +54,7 @@
 </gm:page>
 
  
+
 
 
 
