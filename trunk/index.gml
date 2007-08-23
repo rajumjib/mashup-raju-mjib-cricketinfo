@@ -10,7 +10,7 @@
       </td></tr>
     <tr><td  width="40%" valign="top"  style="padding-top:20px;padding-right:20px">
       <gm:list id="InfoList" template="InfoListItems"
-           data="${Base}" pagesize="10"/>
+           data="${base}" pagesize="10"/>
       </td>
       <td>
         <gm:map id="InfoMap" zoom="1" control="small" maptypes="false" 
@@ -54,6 +54,7 @@
 </gm:page>
 
  
+
 
 
 
