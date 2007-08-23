@@ -13,10 +13,6 @@
            data="${base}" pagesize="10"/>
       </td>
       <td>
-        <gm:map id="InfoMap" zoom="1" control="small" maptypes="false" 
-            data="${InfoList}">
-          <gm:handleEvent src="InfoList"/>
-        </gm:map>
       </td>
     </tr>
     </tbody>
@@ -27,16 +23,13 @@
     <table width="100%">
       <tbody>
         <tr>
-          <td colspan="2">
-            <b>Team Name</b><hr />
+          <td>
+            <b>News</b><hr />
           </td>
         </tr>
         <tr repeat="true">
           <td>
             <b><gm:text ref="title"/></b>
-          </td>
-          <td>
-            <gm:html ref="content"/>
           </td>
         </tr>
       </tbody>
@@ -54,6 +47,7 @@
 </gm:page>
 
  
+
 
 
 
