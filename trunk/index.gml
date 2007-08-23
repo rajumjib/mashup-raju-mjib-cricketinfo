@@ -1,5 +1,4 @@
 <gm:page title="Cricket Info">
-  <gm:data id="TeamRankData" data="http://www.cricketzone.com/rss_feed/team_rank_odi.xml"/>
 
 <div style="padding:15px">
   <table border="1" width="100%">
@@ -10,13 +9,13 @@
         Dhaka, Bangladesh.
       </td></tr>
     <tr><td  width="40%" valign="top"  style="padding-top:20px;padding-right:20px">
-      <gm:list id="TeamRankList" template="TeamRankListItems"
-           data="${TeamRankData}" pagesize="10"/>
+      <gm:list id="InfoList" template="InfoListItems"
+           data="${Base}" pagesize="10"/>
       </td>
       <td>
         <gm:map id="InfoMap" zoom="1" control="small" maptypes="false" 
-            data="${TeamRankData}">
-          <gm:handleEvent src="TeamRankList"/>
+            data="${InfoList}">
+          <gm:handleEvent src="InfoList"/>
         </gm:map>
       </td>
     </tr>
@@ -24,7 +23,7 @@
   </table>
 </div>
 
-  <gm:template id="TeamRankListItems">
+  <gm:template id="InfoListItems">
     <table width="100%">
       <tbody>
         <tr>
@@ -55,6 +54,7 @@
 </gm:page>
 
  
+
 
 
 
